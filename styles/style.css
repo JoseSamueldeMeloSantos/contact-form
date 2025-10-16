@@ -1,0 +1,115 @@
+/* Remove a borda e o outline dos campos de texto e email */
+/* Você pode simplificar e agrupar todos os campos se quiser */
+input, /* Aplica a todos os inputs, exceto o botão */
+textarea {
+    border: none;
+    outline: none;
+}
+
+
+:root {
+    /* Paleta de Cores para o Tema Escuro */
+    --cor-fundo-pagina: #0c0c0c; 
+    --cor-fundo-form: #201f1f;
+    --cor-fundo-legend: #5a5a5a;
+    --cor-texto-principal: #CCCCCC;
+    --cor-fundo-input: #1A1A1A;
+    --cor-botao-texto: #FFFFFF;
+}
+
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--cor-fundo-pagina);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    margin-top: 2rem;
+    background-color: var(--cor-fundo-form);
+    width: 35vw;
+    padding: 1.5rem;
+
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+legend {
+    padding: 1rem;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    color:var(--cor-fundo-legend);
+}
+
+label {
+    font-size: 1.3em;
+    color: var(--cor-botao-texto);
+    margin-bottom: 0.5rem;
+}
+
+input {
+    color: white;
+    outline: none;
+    height: 2.9em;
+    background-color: black;
+    border-bottom: 3px solid #5a5a5a;
+    margin-bottom: 1.7em;
+}
+
+label,input {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+input:focus, textarea:focus {
+    border-color: wheat;
+}
+
+.email-input:valid {
+    border-color: rgb(8, 105, 8);
+}
+
+
+
+input:invalid,
+textarea:invalid {
+    border-color: rgb(151, 9, 9);
+}
+
+.menssagem-textarea {
+    color: white;
+    background-color: black;
+    border-bottom: 3px solid #5a5a5a;
+    resize: none;
+    width: 100%;
+    height: 17vh;
+    padding: 0;
+    margin-bottom: 1.7em;
+}
+
+.btn {
+    width: fit-content;
+    background-color: #5a5a5a;
+    color: white;
+    text-transform: uppercase;
+    padding: 1em;
+    text-align: center;
+    margin-left: auto;
+}
+
+
+
+
+
