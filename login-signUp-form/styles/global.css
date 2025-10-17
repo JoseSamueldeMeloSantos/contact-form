@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Belleza&family=Italiana&family=Roboto:ital,wght@0,100..900;1,100..900&family=Viaoda+Libre&display=swap');
 
+html {font-size: 62.5%;}
+
 html,body {
     font-family: "Roboto", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color:  #3a68b7;
@@ -25,4 +27,67 @@ label,input {
 a {
   font-size: .7;
   color: var(--botton-color);  
+}
+
+
+
+:root {
+    --primary-color: #325592;
+    --botton-color: #21427c;
+    --second-color: grey;
+    --input-field-border-color: rgb(185, 178, 178);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+form {
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    max-width: 32vw;
+    min-width: 20vw;
+    padding: 2em;
+}
+
+fieldset {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    border: none;
+}
+
+.form-title {
+    padding-left: 0;
+    font-size: 3.2em;
+    font-weight: 300;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.label {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: var(--second-color);
+    font-weight: 400;
+}
+
+.input-field {
+    height: 2.7em;
+    border-bottom: 1.5px solid var(--input-field-border-color);
+    margin-bottom: 1em;
+    color: var(--second-color);
+}
+
+.btn {
+    background-color: var(--botton-color);
+    border: none;
+    outline: none;
+    padding: 0.7em 1.3em;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 450;
+    border-radius: 2px;
+    cursor: pointer;
 }
