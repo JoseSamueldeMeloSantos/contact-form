@@ -32,7 +32,9 @@ body {
 form {
     margin-top: 2rem;
     background-color: var(--cor-fundo-form);
-    width: 35vw;
+    width: 90%;
+    min-width: 27em;
+    max-width: 44em;
     padding: 1.5rem;
 
 }
@@ -63,7 +65,8 @@ input {
     outline: none;
     height: 2.9em;
     background-color: black;
-    border-bottom: 3px solid #5a5a5a;
+    border-bottom: 3px solid transparent;
+    border-color: #5a5a5a;
     margin-bottom: 1.7em;
 }
 
@@ -73,20 +76,23 @@ label,input {
     box-sizing: border-box;
 }
 
+/*
 input:focus, textarea:focus {
     border-color: wheat;
 }
+*/
 
-input:valid {
+/*use de varias pseudos classes ao mesmo tempo*/
+input:invalid:focus,
+textarea:invalid:focus {
+    border-color: rgb(151, 9, 9);
+}
+
+input:valid:focus,
+textarea:valid:focus {
     border-color: rgb(8, 105, 8);
 }
 
-
-
-input:invalid,
-textarea:invalid {
-    border-color: rgb(151, 9, 9);
-}
 
 .menssagem-textarea {
     color: white;
@@ -100,6 +106,7 @@ textarea:invalid {
 }
 
 .btn {
+    border: none;
     width: fit-content;
     background-color: #5a5a5a;
     color: white;
