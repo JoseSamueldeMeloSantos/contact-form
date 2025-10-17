@@ -1,11 +1,18 @@
 :root {
-    --primary-color: #3a68b7;
+    --primary-color: #325592;
+    --second-color: rgb(71, 71, 71);
+}
+
+html {
+    font-size: 62.5%;
 }
 
 form {
     background-color: rgb(255, 255, 255);
     width: 90%;
-    max-width: 37vw;
+    max-width: 32vw;
+    min-width: 20vw;
+    padding: 2em;
 }
 
 fieldset {
@@ -15,3 +22,16 @@ fieldset {
     border: none;
 }
 
+.form-title {
+    font-size: 3.2em;
+    font-weight: 300;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.label {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: var(--second-color);
+    font-weight: 400;
+}
