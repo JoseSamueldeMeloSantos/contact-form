@@ -1,6 +1,7 @@
 :root {
     --primary-color: #325592;
-    --second-color: rgb(71, 71, 71);
+    --second-color: grey;
+    --input-field-border-color: rgb(185, 178, 178);
 }
 
 html {
@@ -34,4 +35,11 @@ fieldset {
     text-transform: uppercase;
     color: var(--second-color);
     font-weight: 400;
+}
+
+.input-field {
+    height: 2.7em;
+    border-bottom: 1.5px solid var(--input-field-border-color);
+    margin-bottom: 1em;
+    color: var(--second-color);
 }

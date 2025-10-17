@@ -16,3 +16,8 @@ body {
 label,input {
     box-sizing: border-box;
 }
+
+.input-field {
+    border: none;
+    outline: none;
+}
