@@ -21,3 +21,8 @@ label,input {
     border: none;
     outline: none;
 }
+
+a {
+  font-size: .7;
+  color: var(--botton-color);  
+}

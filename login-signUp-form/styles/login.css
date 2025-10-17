@@ -66,5 +66,10 @@ fieldset {
 }
 
 .btn-a {
-
+    padding: 1.1em 1.3em;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1.2em;
 }
+
