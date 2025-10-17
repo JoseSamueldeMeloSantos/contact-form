@@ -24,6 +24,7 @@ fieldset {
 }
 
 .form-title {
+    margin-left: 0;
     font-size: 3.2em;
     font-weight: 300;
     color: var(--primary-color);
@@ -42,4 +43,11 @@ fieldset {
     border-bottom: 1.5px solid var(--input-field-border-color);
     margin-bottom: 1em;
     color: var(--second-color);
+}
+
+.botton-div {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
