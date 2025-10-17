@@ -46,6 +46,8 @@ form {
     max-width: 32vw;
     min-width: 20vw;
     padding: 2em;
+
+    border-left: 7px solid #21375e;
 }
 
 fieldset {
@@ -76,6 +78,12 @@ fieldset {
     border-bottom: 1.5px solid var(--input-field-border-color);
     margin-bottom: 1em;
     color: var(--second-color);
+
+    transition: padding 0.2s ease;
+}
+
+.input-field:focus {
+    padding-left: 1rem;
 }
 
 .btn {
