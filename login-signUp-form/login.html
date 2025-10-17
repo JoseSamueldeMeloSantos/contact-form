@@ -1,28 +1,29 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="author" content="José Samuel de Melo Santos">
         <title>Login</title>
     </head>
     <body>
-        
         <form action="" method="get">
             <fieldset>
-                <legend>Cadastre-se</legend>
+                <legend>Login</legend>
 
                 <label for="user">usuário</label>
                 <input type="text" name="user" id="user">
 
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email">
-
-                <label for="passowrd"></label>
+                <label for="passowrd">senha</label>
                 <input type="password" name="passowrd" id="passowrd">
             </fieldset>
 
             <div>
-                <input type="submit" value="Cadastre-se">
-                <p>Já possui cadastro? <a href="#">Faça login</a></p>
+                <div class="actions">
+                    <input type="submit" value="login">
+                    <a href="#"> Cadastre-se</a>
+                </div>
+
+                <a href="#">Esqueci minha senha</a>
             </div>
         </form>
     </body>
