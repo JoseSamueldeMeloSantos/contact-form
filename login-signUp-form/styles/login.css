@@ -1,5 +1,6 @@
 :root {
     --primary-color: #325592;
+    --botton-color: #21427c;
     --second-color: grey;
     --input-field-border-color: rgb(185, 178, 178);
 }
@@ -17,6 +18,7 @@ form {
 }
 
 fieldset {
+    padding: 0;
     display: flex;
     flex-direction: column;
     padding: 0;
@@ -24,7 +26,7 @@ fieldset {
 }
 
 .form-title {
-    margin-left: 0;
+    padding-left: 0;
     font-size: 3.2em;
     font-weight: 300;
     color: var(--primary-color);
@@ -50,4 +52,19 @@ fieldset {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+}
+
+.btn {
+    background-color: var(--botton-color);
+    border: none;
+    outline: none;
+    padding: 0.7em 1.3em;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 450;
+    border-radius: 2px;
+}
+
+.btn-a {
+
 }
