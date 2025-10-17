@@ -9,12 +9,6 @@ html {
     font-size: 62.5%;
 }
 
-.botton-div {
-    margin-top: 1em;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-}
 
 .actions {
     display: flex;
@@ -29,6 +23,3 @@ html {
     font-size: 1.4em;
 }
 
-.notice {
-    font-size: 1.2em;
-}
