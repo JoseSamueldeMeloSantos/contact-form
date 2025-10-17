@@ -1,0 +1,17 @@
+:root {
+    --primary-color: #3a68b7;
+}
+
+form {
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    max-width: 37vw;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    border: none;
+}
+
