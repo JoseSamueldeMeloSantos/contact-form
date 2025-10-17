@@ -77,7 +77,7 @@ input:focus, textarea:focus {
     border-color: wheat;
 }
 
-.email-input:valid {
+input:valid {
     border-color: rgb(8, 105, 8);
 }
 

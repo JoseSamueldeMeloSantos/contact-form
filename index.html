@@ -6,21 +6,21 @@
         <link rel="stylesheet" href="styles/style.css">
     </head>
     <body>
-        <form action="#" method="get">
+        <form action="#" method="get" autocomplete="off">
             <fieldset>
                 <legend>Formulário de contato</legend>
 
-                <label class="name-label" for="name-id">Seu Nome</label>
-                <input class="name-input" type="text" id="name-id" >
+                <label for="name">Nome</label>
+                <input type="text" id="name" required>
 
-                <label class="email-label" for="email-id">E-mail</label>
-                <input class="email-input" type="email" name="email" id="email-id">
+                <label for="email">E-mail</label>
+                <input class="email-input" type="email" name="email" id="email">
 
-                <label class="assunto-label" for="assunto-id">Assunto</label>
-                <input class="assunto-input" type="text" name="text" id="assunto-id" required>
+                <label for="subject">Assunto</label>
+                <input type="text" name="subject" id="subject" min="10">
                 
-                <label class="menssagem-label" for="menssagem-id">Menssagem</label>
-                <textarea class="menssagem-textarea" name="textblock" id="menssagem-id" maxlength="100" required></textarea>
+                <label for="messagem">Menssagem</label>
+                <textarea class="menssagem-textarea" name="messagem" id="messagem" rows="7" minlength="20" maxlength="1000" required></textarea>
 
                 <input class="btn" type="submit" value="enviar">
             </fieldset>
